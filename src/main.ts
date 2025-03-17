@@ -23,6 +23,8 @@ async function bootstrap() {
     }),
   );
 
+  console.log('loggg test')
+
   await app.listen();
   logger.log(`Auth microservice running on port ${envs.port}`);
 }
